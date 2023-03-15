@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var msisdn: String = ""
-    @State var partnerCode: String = ""
-    @State var accountPartnerId: String = ""
+    @State var msisdn: String = "855973353190"
+    @State var partnerCode: String = "PASSAPP"
+    @State var accountPartnerId: String = "855973353190"
     
     var deepLink: String {
         return "eMoneyEU://link_passapp?msisdn=\(msisdn)&partnerCode=\(partnerCode)&accountPartnerId=\(accountPartnerId)"
@@ -22,13 +22,14 @@ struct ContentView: View {
             Section {
                 TextField("msisdn", text: $msisdn)
                 TextField("partnerCode", text: $partnerCode)
-                TextField("msisdn", text: $accountPartnerId)
+                TextField("accountPartnerId", text: $accountPartnerId)
             } header: {
                 Text("Deeplink Inputs")
             }
             
             Section {
                 Text(deepLink)
+                    .textSelection(.enabled)
             } header: {
                 Text("Deeplink preview")
             }
@@ -43,7 +44,6 @@ struct ContentView: View {
     }
     
     func invokeEMoneyDeepLink() {
-        
         guard let deepLinkUrl = URL(string: deepLink) else {
             openAppStore()
             return
