@@ -19,6 +19,7 @@
 		E72BCD1A29C1A64C00E38017 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E72BCD1C29C1A64E00E38017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E72BCD1F29C1A64E00E38017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E72BCD2629C1B17E00E38017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		E72BCD1729C1A64C00E38017 /* EMoneyDeepLink */ = {
 			isa = PBXGroup;
 			children = (
+				E72BCD2629C1B17E00E38017 /* Info.plist */,
 				E72BCD1829C1A64C00E38017 /* EMoneyDeepLinkApp.swift */,
 				E72BCD1A29C1A64C00E38017 /* ContentView.swift */,
 				E72BCD1C29C1A64E00E38017 /* Assets.xcassets */,
@@ -267,8 +269,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EMoneyDeepLink/Preview Content\"";
+				DEVELOPMENT_TEAM = M5MM3VWR4K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EMoneyDeepLink/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,8 +299,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EMoneyDeepLink/Preview Content\"";
+				DEVELOPMENT_TEAM = M5MM3VWR4K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EMoneyDeepLink/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
