@@ -11,6 +11,8 @@
 		E72BCD1B29C1A64C00E38017 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72BCD1A29C1A64C00E38017 /* ContentView.swift */; };
 		E72BCD1D29C1A64E00E38017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E72BCD1C29C1A64E00E38017 /* Assets.xcassets */; };
 		E72BCD2029C1A64E00E38017 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E72BCD1F29C1A64E00E38017 /* Preview Assets.xcassets */; };
+		E7C8EF3C29C99B2600196516 /* LinkAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C8EF3B29C99B2600196516 /* LinkAccountView.swift */; };
+		E7C8EF3E29C99B6500196516 /* DeeplinkPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C8EF3D29C99B6500196516 /* DeeplinkPaymentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		E72BCD1C29C1A64E00E38017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E72BCD1F29C1A64E00E38017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E72BCD2629C1B17E00E38017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E7C8EF3B29C99B2600196516 /* LinkAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkAccountView.swift; sourceTree = "<group>"; };
+		E7C8EF3D29C99B6500196516 /* DeeplinkPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkPaymentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				E72BCD2629C1B17E00E38017 /* Info.plist */,
 				E72BCD1829C1A64C00E38017 /* EMoneyDeepLinkApp.swift */,
+				E7C8EF3D29C99B6500196516 /* DeeplinkPaymentView.swift */,
+				E7C8EF3B29C99B2600196516 /* LinkAccountView.swift */,
 				E72BCD1A29C1A64C00E38017 /* ContentView.swift */,
 				E72BCD1C29C1A64E00E38017 /* Assets.xcassets */,
 				E72BCD1E29C1A64E00E38017 /* Preview Content */,
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E72BCD1B29C1A64C00E38017 /* ContentView.swift in Sources */,
+				E7C8EF3E29C99B6500196516 /* DeeplinkPaymentView.swift in Sources */,
 				E72BCD1929C1A64C00E38017 /* EMoneyDeepLinkApp.swift in Sources */,
+				E7C8EF3C29C99B2600196516 /* LinkAccountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
