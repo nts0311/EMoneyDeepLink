@@ -14,7 +14,7 @@ struct DeeplinkPaymentView: View {
     @State var refId: String = "PASSAPPTEST"
     @State var partnerCode: String = "PASSAPP"
     @State var accountPartnerId: String = "855312594354"
-    @State var amount = 10.0
+    @State var amount = "10.0"
     @State var currency: String = "USD"
     
     var deepLink: String {
@@ -49,8 +49,10 @@ struct DeeplinkPaymentView: View {
                     Text("amount:")
                         .foregroundColor(.gray)
                     
-                    TextField("amount", value: $amount, format: .currency(code: ""))
-                        .keyboardType(.decimalPad)
+                    TextField("accountPartnerId", text: $amount)
+                    
+//                    TextField("amount", value: $amount, format: .currency(code: ""))
+//                        .keyboardType(.decimalPad)
                     
                 }
                 

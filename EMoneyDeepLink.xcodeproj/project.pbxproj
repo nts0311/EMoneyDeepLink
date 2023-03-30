@@ -277,7 +277,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EMoneyDeepLink/Preview Content\"";
-				DEVELOPMENT_TEAM = DX476LUU93;
+				DEVELOPMENT_TEAM = 284QS8GKS9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EMoneyDeepLink/Info.plist;
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sonnt.EMoneyDeepLink;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonnt.EMoneyEUDeepLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,7 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EMoneyDeepLink/Preview Content\"";
-				DEVELOPMENT_TEAM = DX476LUU93;
+				DEVELOPMENT_TEAM = 284QS8GKS9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EMoneyDeepLink/Info.plist;
@@ -323,7 +323,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sonnt.EMoneyDeepLink;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonnt.EMoneyEUDeepLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
