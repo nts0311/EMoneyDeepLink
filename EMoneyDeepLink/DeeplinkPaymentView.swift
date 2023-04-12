@@ -16,11 +16,12 @@ struct DeeplinkPaymentView: View {
     @State var accountPartnerId: String = "855312594354"
     @State var amount = "10.0"
     @State var currency: String = "USD"
+    @State var phonePartner: String = "855312594354"
     
     var deepLink: String {
         let selectedCurrency = (currency == "USD") ? 0 : 1
         
-        return "eMoneyEU://deeplink_payment?refId=\(refId)&partnerCode=\(partnerCode)&accountPartnerId=\(accountPartnerId)&amount=\(amount)&currency=\(selectedCurrency)"
+        return "eMoneyEU://deeplink_payment?refId=\(refId)&partnerCode=\(partnerCode)&accountPartnerId=\(accountPartnerId)&amount=\(amount)&currency=\(selectedCurrency)&phonePartner=\(phonePartner)"
     }
     
     var body: some View {
@@ -43,6 +44,12 @@ struct DeeplinkPaymentView: View {
                     Text("accountPartnerId:")
                         .foregroundColor(.gray)
                     TextField("accountPartnerId", text: $accountPartnerId)
+                }
+                
+                HStack {
+                    Text("phonePartner:")
+                        .foregroundColor(.gray)
+                    TextField("phonePartner", text: $phonePartner)
                 }
                 
                 HStack {

@@ -10,9 +10,10 @@ import SwiftUI
 struct LinkAccountView: View {
     @State var partnerCode: String = "PASSAPP"
     @State var accountPartnerId: String = "855312594354"
+    @State var phonePartner: String = "855312594354"
     
     var deepLink: String {
-        return "eMoneyEU://link_account?partnerCode=\(partnerCode)&accountPartnerId=\(accountPartnerId)"
+        return "eMoneyEU://link_account?partnerCode=\(partnerCode)&accountPartnerId=\(accountPartnerId)&phonePartner=\(phonePartner)"
     }
     
     var body: some View {
@@ -28,6 +29,12 @@ struct LinkAccountView: View {
                     Text("accountPartnerId:")
                         .foregroundColor(.gray)
                     TextField("accountPartnerId", text: $accountPartnerId)
+                }
+                
+                HStack {
+                    Text("phonePartner:")
+                        .foregroundColor(.gray)
+                    TextField("phonePartner", text: $phonePartner)
                 }
                 
             } header: {
